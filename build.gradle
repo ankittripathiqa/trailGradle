@@ -38,11 +38,7 @@ test{
     useTestNG(){ 
     suites 'testng.xml' 
     
-    useDefaultListeners = true 
-    outputDirectory = file("$projectDir/testngOutput")
-    }
-    reports.html.setDestination(file("$projectDir/html"))
-    
+  }
  
     
 }
